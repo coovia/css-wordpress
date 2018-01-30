@@ -1,0 +1,54 @@
+/* Bouton Pré-diagnostic gratuit */
+#menu-item-928 {
+  background-color: #ef5240;
+  text-align: center;
+  padding: 10px 10px 10px !important;
+  border-radius: 3px;
+  height: 33px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* CTA footer */
+.widget__3 {
+  text-align: center;
+  padding: 20px;
+  background: #292929;
+}
+
+#main-footer .footer-widget h4 {
+  color: #fff;
+  font-weight: 600;
+}
+
+#main-footer .footer-widget .widget__3 h4 {
+  color: #fff;
+  margin-bottom: 15px;
+}
+
+/* Lien sous le bouton Pré-diagnostic gratuit */
+#menu-item-928 a {
+  font-weight: 700 !important;
+  color: #fff !important;
+}
+
+/* CTA footer "Planifier" */
+#footer-widgets .footer-widget .widget__3 a {
+  background-color: #ef5240;
+  text-align: center;
+  padding: 10px 10px 10px !important;
+  border-radius: 3px;
+  color: white;
+}
+
+/* Alignement nav-bar */
+#top-menu-nav {
+  position: relative;
+  top: -5px;
+}
+
+/* Interligne liens footer */
+.textwidget p {
+  padding-bottom: 0;
+}

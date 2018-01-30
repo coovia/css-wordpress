@@ -1,0 +1,15 @@
+{
+  "name": "coovia-wp",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "stylelint-config-standard": "^18.0.0"
+  },
+  "stylelint": {
+    "extends": "stylelint-config-standard",
+    "rules": {
+      "at-rule-empty-line-before": null
+    }
+  }
+}
