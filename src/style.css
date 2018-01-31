@@ -17,14 +17,17 @@
   background: #292929;
 }
 
+/* Coovia et A propos dans footer */
 #main-footer .footer-widget h4 {
   color: #fff;
   font-weight: 600;
 }
 
+/* Obtenez gratuitement votre pré-diagnostic ! */
 #main-footer .footer-widget .widget__3 h4 {
   color: #fff;
   margin-bottom: 15px;
+  line-height: 1.5;
 }
 
 /* Lien sous le bouton Pré-diagnostic gratuit */
