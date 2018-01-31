@@ -3,13 +3,48 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "scripts": {
+    "webpack": "webpack"
+  },
   "devDependencies": {
-    "stylelint-config-standard": "^18.0.0"
+    "css-loader": "^0.28.9",
+    "eslint": "^4.16.0",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "postcss-loader": "^2.0.10",
+    "style-loader": "^0.20.1",
+    "stylelint-config-standard": "^18.0.0",
+    "webpack": "^3.10.0"
   },
   "stylelint": {
     "extends": "stylelint-config-standard",
     "rules": {
       "at-rule-empty-line-before": null
+    }
+  },
+  "eslintConfig": {
+    "env": {
+      "node": true,
+      "commonjs": true,
+      "es6": true
+    },
+    "extends": "eslint:recommended",
+    "rules": {
+      "indent": [
+        "error",
+        2
+      ],
+      "linebreak-style": [
+        "error",
+        "unix"
+      ],
+      "quotes": [
+        "error",
+        "single"
+      ],
+      "semi": [
+        "error",
+        "never"
+      ]
     }
   }
 }
